@@ -6,7 +6,7 @@ function App() {
       <h2 className="text-center text-textColor font-bold mb-3 text-xl">
         Tailwind ile card duzeltmek
       </h2>
-      <div className="card flex flex-col bg-cardBack w-full sm:w-1/3 rounded-2xl p-6">
+      <div className="card flex flex-col bg-cardBack w-full sm:w-1/3 rounded-2xl p-6 shadow-sm shadow-buttonBack3">
         <div className="bg-buttonBack1 h-16 w-16 flex justify-center items-center rounded-full mb-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ function App() {
           <button className="text-textColor bg-buttonBack2 btns">4</button>
           <button className="text-textColor bg-buttonBack3 btns">5</button>
         </div>
-        <button className="bg-buttonSubmit justify-center items-center font-serif text-lg mt-5 rounded-3xl text-buttonBack3 pb-2 pt-2 font-bold">Submit</button>
+        <button className="bg-buttonSubmit justify-center items-center font-serif text-lg mt-5 rounded-3xl text-textColor pb-2 pt-2 font-bold">Submit</button>
       </div>
     </div>
   );
